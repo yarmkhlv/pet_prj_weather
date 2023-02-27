@@ -1,0 +1,15 @@
+.header-link {
+  display: inline-block;
+  width: 20%;
+  height: 50%;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+  color: black;
+}
+.header-link:visited {
+  color: black;
+}
+.header-link:hover {
+  text-decoration: underline;
+}

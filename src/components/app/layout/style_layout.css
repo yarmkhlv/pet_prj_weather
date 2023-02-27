@@ -1,0 +1,18 @@
+.header {
+  width: 621px;
+  height: 10vh;
+  border: 1px solid black;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+.main {
+  width: 621px;
+  height: 462px;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

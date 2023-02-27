@@ -1,0 +1,25 @@
+.menu-link {
+  display: inline-block;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  width: 33.333%;
+  height: 100%;
+  background-color: #fff;
+  border: none;
+  border-right: 1px solid black;
+  font-family: 'Titillium Web', sans-serif;
+}
+.menu-link:nth-child(3) {
+  border-right: none;
+}
+.menu-link:hover {
+  background-color: black;
+  color: #fff;
+}
+.link-disabled {
+  pointer-events: none;
+  background-color: gray;
+  color: white;
+}
