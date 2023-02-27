@@ -11,9 +11,9 @@ function Stats() {
     : 'недостаточно данных';
   return (
     <div>
-      <p className="stats-text-el">Самый популярный город : {word}</p>
+      <p className="stats-text-el">{`Самый популярный город : ${word}.`}</p>
       <p className="stats-text-el">
-        Количество запрошенных разных городов: {citiesStats.length}.
+        {`Количество запрошенных разных городов: ${citiesStats.length}.`}
       </p>
     </div>
   );
