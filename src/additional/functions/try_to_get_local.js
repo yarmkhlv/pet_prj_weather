@@ -3,7 +3,10 @@ const tryToGetLocalArr = (key) => {
   if (keyFromLocal) {
     return keyFromLocal;
   }
-  return [];
+  return [
+    { name: 'Tokyo', id: '1' },
+    { name: 'London', id: '2' },
+  ];
 };
 
 const tryToGetLocalObj = (key) => {

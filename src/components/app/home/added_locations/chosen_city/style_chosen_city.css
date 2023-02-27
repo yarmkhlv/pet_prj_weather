@@ -10,10 +10,18 @@
   font-size: 24px;
   border: none;
   background-color: #fff;
+  transition: color 0.2s linear;
+}
+.chosenCity__name:hover {
+  color: cadetblue;
 }
 .chosenCity__btn {
   border: none;
   background-color: #fff;
   transform: rotate(135deg);
   font-size: 24px;
+  transition: color 0.2s linear;
+}
+.chosenCity__btn:hover {
+  color: cadetblue;
 }
