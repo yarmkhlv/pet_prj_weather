@@ -10,7 +10,7 @@ function WeatherByTime(props) {
     weather,
   } = data;
   const { icon, main } = weather[0];
-  const srcIcon = `http://openweathermap.org/img/wn/${icon}@4x.png`;
+  const srcIcon = `https://openweathermap.org/img/wn/${icon}@4x.png`;
   return (
     <div className="weatherByTime">
       <div className="weatherByTime__date">

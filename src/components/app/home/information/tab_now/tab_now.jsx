@@ -10,7 +10,7 @@ function TabNow() {
   const dispatch = useDispatch();
   const selectedCitiesStore = useSelector((store) => store.selectedCities);
   const tabNowDetails = useSelector((store) => store.tabNowDetails.data);
-  const srcIcon = `http://openweathermap.org/img/wn/${tabNowDetails?.icon}@4x.png`;
+  const srcIcon = `https://openweathermap.org/img/wn/${tabNowDetails?.icon}@4x.png`;
   const handleChangeSelected = () => {
     const currentCity = listHasThisCity(
       selectedCitiesStore,
